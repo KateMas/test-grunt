@@ -1,3 +1,44 @@
+@font-face {
+  font-family: "Big-John";
+  src: url("../_fonts/big-john/big-john.eot");
+  src: url("../_fonts/big-john/big-john.eot?#iefix") format("embedded-opentype"), url("../_fonts/big-john/big-john.woff") format("woff"), url("../_fonts/big-john/big-john.ttf") format("truetype"), url("../_fonts/big-john/big-john.svg#big-john") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Slim-Joe";
+  src: url("../_fonts/slim-joe/slim-joe.eot");
+  src: url("../_fonts/slim-joe/slim-joe.eot?#iefix") format("embedded-opentype"), url("../_fonts/slim-joe/slim-joe.woff") format("woff"), url("../_fonts/slim-joe/slim-joe.ttf") format("truetype"), url("../_fonts/slim-joe/slim-joe.svg#slim-joe") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+header.nav-style {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding-top: 33px;
+  padding-bottom: 40px;
+  background-color: transparent;
+  border: none; }
+  header.nav-style .navbar-brand {
+    font-family: "Big-John";
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff; }
+  header.nav-style .navbar-nav li .nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #fff; }
+header .list {
+  float: right; }
 
+/*----------- */
+.first-info {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../_images/bkg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

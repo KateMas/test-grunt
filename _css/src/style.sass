@@ -5,4 +5,41 @@
 @import mixin/breakpoints.sass
 @import mixin/transition.sass
 @import mixin/user-select.sass
+@import mixin/font-face.sass
 
++font-face('Big-John', '../_fonts/big-john/big-john', 'big-john')
++font-face('Slim-Joe', '../_fonts/slim-joe/slim-joe', 'slim-joe')
+
+header
+  &.nav-style
+    position: absolute
+    z-index: 1
+    width: 100%
+    padding-top: 33px
+    padding-bottom: 40px
+    background-color: transparent
+    border: none
+    .navbar-brand
+      font-family: "Big-John"
+      font-size: 25px
+      font-weight: 400
+      color: #fff
+    .navbar-nav
+      li
+        .nav-link
+          font-family: 'Open Sans', sans-serif
+          font-size: 16px
+          font-weight: 400
+          line-height: 34px
+          color: #fff
+  .list
+    float: right
+
+/*-----------*/
+.first-info
+  padding-top: 200px
+  padding-bottom: 200px
+  background-image: url("../_images/bkg1.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  text-align: center
