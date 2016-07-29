@@ -30,16 +30,61 @@ header
           font-family: 'Open Sans', sans-serif
           font-size: 16px
           font-weight: 400
-          line-height: 34px
+          line-height: 17px
           color: #fff
   .list
     float: right
+    padding-top: 8px
+    .active
+      &>.nav-link
+        padding-left: 20px
+        padding-right: 20px
+        border: 1px solid #fff
+        border-radius: 16px
+        color: #fff!important
 
 /*-----------*/
 .first-info
-  padding-top: 200px
-  padding-bottom: 200px
+  padding-top: 286px
+  padding-bottom: 71px
   background-image: url("../_images/bkg1.jpg")
   background-repeat: no-repeat
   background-size: cover
+  font-family: 'Open Sans', sans-serif
   text-align: center
+  color: #fff
+  h1    
+    font-size: 35px
+    font-weight: 300
+    text-transform: uppercase
+    letter-spacing: 4px    
+  p
+    width: 40%
+    margin: 32px auto 0
+    font-size: 16px
+    font-weight: 300
+    line-height: 27px
+  .arrow
+    position: relative
+    display: inline-block
+    width: 36px
+    height: 36px
+    margin-top: 216px
+    background-color: #19bd9a
+    border-radius: 50%
+    &:before, &:after
+      position: absolute
+      top: 19px
+      display: inline-block
+      width: 12px
+      height: 2px
+      background-color: #fff
+      content: ""
+    &:before
+      left: 8px
+      transform: rotate(45deg)
+      border-radius: 50px 0 0 50px
+    &:after
+      right: 8px
+      transform: rotate(-45deg)
+      border-radius: 0 50px 50px 0px
