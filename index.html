@@ -9,38 +9,46 @@
     <link rel="stylesheet" href="_css/bootstrap.min.css">
     <link rel="stylesheet" href="_css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="_css/swiper.min.css">
     <script src="_js/jquery.min.js"></script>
     <script src="_js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body class="bd-home">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+        <div class="container">
+            <span class="skiplink-text">Skip to main content</span>
+        </div>
+    </a>
     <header class="navbar navbar-light bg-faded nav-style">
         <div class="container">
-            <a class="navbar-brand" href="#">Bouncy</a>
-            <ul class="nav navbar-nav list">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Hello <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+            <a class="navbar-brand" href="/">Bouncy</a>
+            
+            <div class="collapse navbar-toggleable-xs" id="bd-main-nav">
+                <ul class="nav navbar-nav list">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Hello <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
